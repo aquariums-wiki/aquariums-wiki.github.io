@@ -3,3 +3,10 @@ exclude:
   - local.sh
   - README.md
   - CNAME
+header_pages:
+  - index.md
+  - about.md
+  - saltwater.md
+  - freshwater.md
+
+description: "aquariums and fish wiki"

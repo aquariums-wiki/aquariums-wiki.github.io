@@ -1,7 +1,5 @@
 ---
-layout: default
+layout: home
 title: aquariums.wiki
 ---
-
-* freshwater
-* saltwater
+a collection of links and knowledge about aquarium keeping
