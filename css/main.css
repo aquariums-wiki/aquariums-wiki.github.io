@@ -1,0 +1,21 @@
+body{ 
+  display:flex; 
+  flex-direction:column; 
+  font-family: arial;
+}
+
+header {
+    min-height: 2rem;
+}
+content {
+
+}
+footer {
+    margin-top:auto; 
+    min-height: 2rem;
+}
+
+.small {
+    font-size: .7rem;
+}
+

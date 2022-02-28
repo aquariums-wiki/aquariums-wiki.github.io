@@ -4,4 +4,4 @@ docker run -it --rm \
   --volume="$PWD:/srv/jekyll" \
   --publish 4000:4000 \
   jekyll:aquariumswiki \
-  jekyll serve
+  jekyll serve --verbose

@@ -2,11 +2,12 @@ exclude:
   - local.sh
   - README.md
   - CNAME
-header_pages:
-  - about.md
-  - saltwater.md
-  - freshwater.md
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
 
 description: "aquariums and fish wiki"
 title: aquariums.wiki
 url: https://aquariums.wiki
+permalink: /:year/:month/:slug/

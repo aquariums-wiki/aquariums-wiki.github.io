@@ -3,11 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="{ page.title }">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{ page.title }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
 
 </head>
