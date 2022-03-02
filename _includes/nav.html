@@ -1,1 +1,36 @@
-<a href=/>home</a>
+<style>
+/*  Displays menu when toggler is checked only on mobile/tablet */
+.toggler {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .toggler:checked ~ .navbar-menu {
+    display: block;
+  }
+  /* We don't want menu to be displayed on mobile by default */
+  .navbar-menu {
+    display: none;
+  }
+}
+</style>
+<nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+    <input type="checkbox" id="toggler" class="toggler" />
+    <div class="navbar-brand">
+        <a class="navbar-item" href=/>home</a>
+    <label for="toggler" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+        <a class="navbar-item" href=/>saltwater</a>
+        <a class="navbar-item" href=/>freshwater</a>
+        <a class="navbar-item" href=/>contribute</a>
+        </div>
+        <div class="navbar-end">
+        </div>
+    </div>
+
+</nav>
